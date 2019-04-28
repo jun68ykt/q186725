@@ -10,6 +10,9 @@ const theme = createMuiTheme({
       main: '#ff1493',
     },
   },
+  typography: {
+    useNextVariants: true,
+  },
 });
 
 ReactDOM.render(
